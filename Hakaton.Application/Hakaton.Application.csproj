@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.5.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hakaton.Application.Interfaces\Hakaton.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\Hakaton.Common.Services\Hakaton.Common.Services.csproj" />
+    <ProjectReference Include="..\Hakaton.Core\Hakaton.Core.csproj" />
+    <ProjectReference Include="..\Hakaton.Infrastructure.Interfaces\Hakaton.Infrastructure.Interfaces.csproj" />
+    <ProjectReference Include="..\Hakaton.Infrastructure\Hakaton.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
